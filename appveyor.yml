@@ -1,7 +1,4 @@
 image: Visual Studio 2019
-
-build:
-  project: PgSqlBrowser.csproj
   
 before_build:
 - cmd: nuget restore
@@ -10,7 +7,7 @@ install:
   appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
 after_build:
-  - 7z a PgSqlBrowser.zip %APPVEYOR_BUILD_FOLDER%\PgSqlBrowser\bin\Debug\*.*
+  - 7z a PgSqlBrowser.zip "%APPVEYOR_BUILD_FOLDER%\Postgres Explorer/PgSqlBrowser\bin\Debug\*.*"
 
 artifacts:  # Archive the generated packages in the ci.appveyor.com build report.  - path: bin\Debug\*
   - path: PgSqlBrowser.zip
