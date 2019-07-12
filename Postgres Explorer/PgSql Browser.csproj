@@ -137,10 +137,7 @@
     <Compile Include="QueryWindow.Designer.cs">
       <DependentUpon>QueryWindow.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AboutBox.resx">
-      <DependentUpon>AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConnectBox.resx">
+      <EmbeddedResource Include="ConnectBox.resx">
       <DependentUpon>ConnectBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PgSqllBrowserMain.resx">
