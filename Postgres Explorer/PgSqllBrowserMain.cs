@@ -198,8 +198,8 @@ namespace PgSqlBrowser
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox ab = new AboutBox();
-            ab.ShowDialog();
+         //   AboutBox ab = new AboutBox();
+         //   ab.ShowDialog();
         }
 
 
