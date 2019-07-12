@@ -11,6 +11,7 @@ namespace PgSqlBrowser
 {
     partial class AboutBox : Form
     {
+    /*
         public AboutBox()
         {
             InitializeComponent();
@@ -21,7 +22,7 @@ namespace PgSqlBrowser
             this.labelCompanyName.Text = AssemblyCompany;
             this.textBoxDescription.Text = AssemblyDescription;
         }
-
+*/
         #region Assembly Attribute Accessors
 
         public string AssemblyTitle
